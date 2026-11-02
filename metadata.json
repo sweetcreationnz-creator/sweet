@@ -1,0 +1,6 @@
+{
+  "name": "Sweet Creations",
+  "description": "Bespoke cakes, artisan desserts, exquisite mehendi art, and premium party hire for life's unforgettable celebrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
