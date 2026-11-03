@@ -135,7 +135,7 @@ export const HomePage: React.FC = () => {
           <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="relative rounded-lg overflow-hidden shadow-sm group">
               <img
-                src="/src/assets/images/custom_cakes_showcase_1792550725256.jpg"
+                src="/assets/images/custom_cakes_showcase_1792550725256.jpg"
                 alt="Intricate bas-relief floral piped cake"
                 className="w-full h-72 sm:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -146,7 +146,7 @@ export const HomePage: React.FC = () => {
             </div>
             <div className="relative rounded-lg overflow-hidden shadow-sm group mt-0 sm:mt-6">
               <img
-                src="/src/assets/images/bridal_mehendi_art_1792550727834.jpg"
+                src="/assets/images/bridal_mehendi_art_1792550727834.jpg"
                 alt="Intricate bridal henna design on hands"
                 className="w-full h-72 sm:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"

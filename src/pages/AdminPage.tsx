@@ -48,7 +48,7 @@ export const AdminPage: React.FC = () => {
   const [newGalleryItem, setNewGalleryItem] = useState({
     title: '',
     category: 'cakes' as ServiceCategory,
-    image: '/src/assets/images/custom_cakes_showcase_1792550725256.jpg',
+    image: '/assets/images/custom_cakes_showcase_1792550725256.jpg',
     caption: '',
     isRepresentative: false,
     tags: 'Wedding, Cake Art'
@@ -79,7 +79,7 @@ export const AdminPage: React.FC = () => {
     setNewGalleryItem({
       title: '',
       category: 'cakes',
-      image: '/src/assets/images/custom_cakes_showcase_1792550725256.jpg',
+      image: '/assets/images/custom_cakes_showcase_1792550725256.jpg',
       caption: '',
       isRepresentative: false,
       tags: 'Bespoke, Celebration'
@@ -549,7 +549,7 @@ export const AdminPage: React.FC = () => {
                   required
                   value={newGalleryItem.image}
                   onChange={(e) => setNewGalleryItem({ ...newGalleryItem, image: e.target.value })}
-                  placeholder="/src/assets/images/... or https://"
+                  placeholder="/assets/images/... or https://"
                   className="w-full px-3 py-2 border border-[#D9A0A5]/60 rounded outline-none"
                 />
               </div>

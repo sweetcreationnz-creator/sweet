@@ -39,29 +39,41 @@ interface StoreContextType {
 const StoreContext = createContext<StoreContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  SERVICES: 'sweet_creations_services_v1',
-  PACKAGES: 'sweet_creations_packages_v1',
-  GALLERY: 'sweet_creations_gallery_v1',
-  FAQS: 'sweet_creations_faqs_v1',
-  BUSINESS: 'sweet_creations_business_v1',
-  ENQUIRIES: 'sweet_creations_enquiries_v1',
-  ADMIN_AUTH: 'sweet_creations_admin_auth_v1'
+  SERVICES: 'sweet_creations_services_v2',
+  PACKAGES: 'sweet_creations_packages_v2',
+  GALLERY: 'sweet_creations_gallery_v2',
+  FAQS: 'sweet_creations_faqs_v2',
+  BUSINESS: 'sweet_creations_business_v2',
+  ENQUIRIES: 'sweet_creations_enquiries_v2',
+  ADMIN_AUTH: 'sweet_creations_admin_auth_v2'
+};
+
+const sanitizeItemImages = <T,>(items: T[]): T[] => {
+  return items.map((item) => {
+    if (item && typeof item === 'object' && 'image' in item && typeof (item as Record<string, unknown>).image === 'string') {
+      return {
+        ...item,
+        image: ((item as Record<string, unknown>).image as string).replace(/\/src\/assets\/images\//g, '/assets/images/')
+      };
+    }
+    return item;
+  });
 };
 
 export const StoreProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [services, setServices] = useState<ServiceItem[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.SERVICES);
-    return saved ? JSON.parse(saved) : initialServices;
+    return sanitizeItemImages(saved ? JSON.parse(saved) : initialServices);
   });
 
   const [packages, setPackages] = useState<CelebrationPackage[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.PACKAGES);
-    return saved ? JSON.parse(saved) : initialPackages;
+    return sanitizeItemImages(saved ? JSON.parse(saved) : initialPackages);
   });
 
   const [gallery, setGallery] = useState<GalleryItem[]>(() => {
     const saved = localStorage.getItem(STORAGE_KEYS.GALLERY);
-    return saved ? JSON.parse(saved) : initialGallery;
+    return sanitizeItemImages(saved ? JSON.parse(saved) : initialGallery);
   });
 
   const [faqs, setFaqs] = useState<FaqItem[]>(() => {

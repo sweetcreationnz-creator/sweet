@@ -30,7 +30,7 @@ export const AboutPage: React.FC = () => {
           <div className="lg:col-span-6 relative">
             <div className="rounded-2xl overflow-hidden shadow-lg border border-[#F7E9E5]">
               <img
-                src="/src/assets/images/custom_cakes_showcase_1792550725256.jpg"
+                src="/assets/images/custom_cakes_showcase_1792550725256.jpg"
                 alt="Sweet Creations Studio Artistry"
                 className="w-full h-[450px] object-cover"
                 referrerPolicy="no-referrer"

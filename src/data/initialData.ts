@@ -20,7 +20,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Artisanal tiered cakes handcrafted for your milestone moments',
     shortDescription: 'From intimate birthdays to majestic multi-tier wedding centrepieces, each cake is tailored to your flavour profile, guest count, and design vision.',
     fullDescription: 'Every celebration deserves a show-stopping centrepiece. At Sweet Creations, our bespoke cakes are designed with culinary artistry and visual balance. We work with smooth velvet swiss meringue buttercream, delicate sugar florals, gold foil leafing, and modern architectural textures. Each tier is baked fresh using premium ingredients to ensure an unforgettable taste experience.',
-    image: '/src/assets/images/custom_cakes_showcase_1792550725256.jpg',
+    image: '/assets/images/custom_cakes_showcase_1792550725256.jpg',
     features: [
       'Tailored serving guides (from 12 to 150+ guests)',
       'Single, two-tier, three-tier, and sculptural floating tiers',
@@ -68,7 +68,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Delectable individual bites, dessert cups, and artisan gift boxes',
     shortDescription: 'Petite treats curated to complement your event theme, perfect for grazing tables, dessert spreads, and thoughtful guest favours.',
     fullDescription: 'Indulge your guests with a lavish assortment of handcrafted miniature desserts. We blend classic patisserie traditions with modern aesthetic styling, creating a harmonious palette of colours, textures, and delicate flavours that elevate any celebration table.',
-    image: '/src/assets/images/dessert_table_spread_1792550726678.jpg',
+    image: '/assets/images/dessert_table_spread_1792550726678.jpg',
     features: [
       'Artisan French macarons in bespoke event colour palettes',
       'Mini Belgian chocolate ganache & fruit curd tartlets',
@@ -100,7 +100,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Elevate your desserts with tiered stands, vintage platters & floral styling',
     shortDescription: 'Complete dessert table presentation styling including elegant stands, gold pedestal platters, acrylic risers, and floral dressing.',
     fullDescription: 'A gorgeous dessert deserves an equally striking presentation. We provide curated dessert table styling, matching vintage pedestals, polished gold tiers, and acrylic risers with soft drapery and floral accents that transform your sweet treats into an artistic installation.',
-    image: '/src/assets/images/dessert_table_spread_1792550726678.jpg',
+    image: '/assets/images/dessert_table_spread_1792550726678.jpg',
     features: [
       'Multi-height antique gold and white ceramic cake stands',
       'Tiered macaron towers and crystal-cut platters',
@@ -120,7 +120,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Intricate bridal henna, party sittings & contemporary fusion designs',
     shortDescription: 'Hand-crafted bridal, festive, and celebration henna art using 100% natural organic henna paste for deep, rich, long-lasting stains.',
     fullDescription: 'Mehendi is a timeless art of celebration, love, and sacred memory. With gentle precision and artistic passion, we create intricate bridal henna suites, delicate modern wristbands, floral mandalas, and festive group sittings. We strictly formulate our henna paste using 100% natural, triple-sifted organic henna leaves and pure essential oils—never chemical dyes.',
-    image: '/src/assets/images/bridal_mehendi_art_1792550727834.jpg',
+    image: '/assets/images/bridal_mehendi_art_1792550727834.jpg',
     features: [
       'Bridal Henna Suites (Full arms, palms, backs & feet)',
       'Pre-wedding Mehendi Night group & guest party appointments',
@@ -155,7 +155,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Thoughtful curated sweet favours for weddings, baby showers & guests',
     shortDescription: 'Custom packaged sweet gift boxes, personalized ribbon favours, and celebration goodie bags designed to match your event theme.',
     fullDescription: 'Express gratitude to your guests with beautifully boxed artisan treats. From luxury macaron gift sleeves to personalised goodie bags with custom tags, ribbons, and wax seals, every favour is prepared with meticulous care.',
-    image: '/src/assets/images/dessert_table_spread_1792550726678.jpg',
+    image: '/assets/images/dessert_table_spread_1792550726678.jpg',
     features: [
       'Personalised favor boxes with custom foiled names and dates',
       'Single, double, and quad macaron luxury packaging',
@@ -175,7 +175,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Curated celebration accessories, tableware accents & themed styling essentials',
     shortDescription: 'Boutique party supplies, designer candles, decorative toppers, themed tableware, and bespoke celebration accessories.',
     fullDescription: 'Complete your party setup with carefully chosen accents. We supply premium celebration tableware, artisanal beeswax and taper candles, acrylic cake toppers, and coordinated party essentials that harmonize with your theme.',
-    image: '/src/assets/images/event_backdrop_hire_1792550727932.jpg',
+    image: '/assets/images/event_backdrop_hire_1792550727932.jpg',
     features: [
       'Acrylic and wooden laser-cut cake toppers',
       'Premium designer party tableware and napkins',
@@ -194,7 +194,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Sturdy, clean party equipment hire for indoor and outdoor celebrations',
     shortDescription: 'Essential hire equipment including round and trestle tables, stylish event seating, and commercial-grade bouncy castles for kids celebrations.',
     fullDescription: 'Take the stress out of event planning with clean, reliable party hire equipment. We offer durable guest tables, elegant cross-back or white gladiator chairs, and child-safe bouncy castles. All equipment is sanitised between bookings, delivered on time, and installed following strict safety protocols.',
-    image: '/src/assets/images/event_backdrop_hire_1792550727932.jpg',
+    image: '/assets/images/event_backdrop_hire_1792550727932.jpg',
     features: [
       'White Tiffany and French Bistro event chairs',
       'Trestle and round banquet dining tables',
@@ -219,7 +219,7 @@ export const initialServices: ServiceItem[] = [
     tagline: 'Picture-perfect focal backdrops, floral arches & organic balloon installations',
     shortDescription: 'Custom event backdrops, shimmering walls, circular gold frames, and organic floral styling designed as your celebration photo focal point.',
     fullDescription: 'Create unforgettable photo moments with our signature backdrop styling. Whether you are hosting a whimsical baby shower, an elegant engagement party, or a vibrant birthday, our backdrops blend architectural arches, cascading florals, and balloon installations to match your aesthetic.',
-    image: '/src/assets/images/event_backdrop_hire_1792550727932.jpg',
+    image: '/assets/images/event_backdrop_hire_1792550727932.jpg',
     features: [
       'Circular gold moongate arches & white sailboard panels',
       'Custom organic balloon garlands in matte, pastel & chrome finishes',
@@ -239,7 +239,7 @@ export const initialPackages: CelebrationPackage[] = [
     title: 'The Intimate Elegance Suite',
     subtitle: 'Perfect for boutique birthdays, micro-weddings & anniversaries',
     description: 'A thoughtfully harmonised package combining an artisanal celebration cake, a curated assortment of miniature desserts, and delicate table presentation.',
-    image: '/src/assets/images/custom_cakes_showcase_1792550725256.jpg',
+    image: '/assets/images/custom_cakes_showcase_1792550725256.jpg',
     idealFor: '15 to 30 Guests',
     inclusions: [
       'Single or two-tier bespoke celebration cake (up to 30 dessert portions)',
@@ -262,7 +262,7 @@ export const initialPackages: CelebrationPackage[] = [
     title: 'The Bridal Bloom Mehendi & Cake Suite',
     subtitle: 'The ultimate signature combination for bridal ceremonies',
     description: 'Celebrate your pre-wedding festivities with our signature organic bridal henna experience alongside a show-stopping engagement cake and celebration desserts.',
-    image: '/src/assets/images/bridal_mehendi_art_1792550727834.jpg',
+    image: '/assets/images/bridal_mehendi_art_1792550727834.jpg',
     idealFor: 'Bridal Festivities & Sangeet Ceremonies',
     inclusions: [
       'Complete bespoke bridal mehendi application (elbows & feet)',
@@ -284,7 +284,7 @@ export const initialPackages: CelebrationPackage[] = [
     title: 'The Complete Celebration Experience',
     subtitle: 'Full-service celebration styling, backdrop, cake & hire',
     description: 'Sit back and enjoy your milestone while Sweet Creations brings your entire celebration to life—from photo backdrop to dessert table, tables, and seating.',
-    image: '/src/assets/images/event_backdrop_hire_1792550727932.jpg',
+    image: '/assets/images/event_backdrop_hire_1792550727932.jpg',
     idealFor: '40 to 80+ Guests (Birthdays, Baby Showers, Engagements)',
     inclusions: [
       'Feature gold arch or sailboard backdrop with custom organic balloon garland',
@@ -319,7 +319,7 @@ export const initialGallery: GalleryItem[] = [
     id: 'gal-2',
     title: 'Four-Tier Ombré Floral Masterpiece',
     category: 'cakes',
-    image: '/src/assets/images/custom_cakes_showcase_1792550725256.jpg',
+    image: '/assets/images/custom_cakes_showcase_1792550725256.jpg',
     caption: 'Soft blush ombré gradient with intricate floral lace bas-relief embroidery and golden botanical toppers.',
     isRepresentative: true,
     tags: ['Wedding', 'Artisanal', 'Bas Relief', 'Luxury']
@@ -328,7 +328,7 @@ export const initialGallery: GalleryItem[] = [
     id: 'gal-3',
     title: 'Grand Patisserie Dessert Bar',
     category: 'desserts',
-    image: '/src/assets/images/dessert_table_spread_1792550726678.jpg',
+    image: '/assets/images/dessert_table_spread_1792550726678.jpg',
     caption: 'Tiered French macarons, raspberry chocolate tarts, mousse shooter cups, and antique candelabras.',
     isRepresentative: true,
     tags: ['Dessert Table', 'Macarons', 'Tartlets', 'Catering']
@@ -337,7 +337,7 @@ export const initialGallery: GalleryItem[] = [
     id: 'gal-4',
     title: 'Intricate Bridal Henna Suite',
     category: 'mehendi',
-    image: '/src/assets/images/bridal_mehendi_art_1792550727834.jpg',
+    image: '/assets/images/bridal_mehendi_art_1792550727834.jpg',
     caption: 'Traditional and contemporary bridal henna featuring delicate mandalas, symmetrical cuffs, and natural organic paste.',
     isRepresentative: true,
     tags: ['Bridal', 'Organic Henna', 'Traditional', 'Mandala']
@@ -346,7 +346,7 @@ export const initialGallery: GalleryItem[] = [
     id: 'gal-5',
     title: 'Boutique Gold Arch & Floral Backdrop',
     category: 'backdrops',
-    image: '/src/assets/images/event_backdrop_hire_1792550727932.jpg',
+    image: '/assets/images/event_backdrop_hire_1792550727932.jpg',
     caption: 'Circular antique gold moongate arch framed with pastel organic balloon garland, fresh blooms, and banquet seating.',
     isRepresentative: true,
     tags: ['Backdrop', 'Hire', 'Balloons', 'Floral Arch']
@@ -355,7 +355,7 @@ export const initialGallery: GalleryItem[] = [
     id: 'gal-6',
     title: 'Artisan Dessert Platter & Risers',
     category: 'displays',
-    image: '/src/assets/images/dessert_table_spread_1792550726678.jpg',
+    image: '/assets/images/dessert_table_spread_1792550726678.jpg',
     caption: 'Curated dessert display hire including gold rimmed pedestals and elegant dessert shooters.',
     isRepresentative: true,
     tags: ['Display Hire', 'Cake Stands', 'Party Styling']
